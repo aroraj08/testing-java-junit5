@@ -3,13 +3,14 @@ package guru.springframework.sfgpetclinic.controllers;
 import guru.springframework.sfgpetclinic.exception.NameNotFoundException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class IndexControllerTest {
+class IndexControllerTest implements ControllerTest {
 
     IndexController indexController;
 
